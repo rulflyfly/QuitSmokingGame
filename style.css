@@ -1,0 +1,11 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* touch-action: none; */
+}
+
+canvas {
+  grid-column: 2;
+  margin-top: 20%;
+}
+
